@@ -1,5 +1,5 @@
 body {
-  background-color: #00ff00;
+  background-color: lightblue;
   text-align: center;
   padding: 20px;
 }
@@ -9,7 +9,16 @@ h1 {
 p {
   color: red;
 }
-img {
+#cat {
    width: 400px;
    height: 240px;
+}
+#dog{
+  width: 400px;
+  height: 260px;
+}
+
+#parrot{
+  width: 400px;
+  height: 600px;
 }
