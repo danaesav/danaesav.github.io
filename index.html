@@ -1,50 +1,29 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Pet House</title>
+    <title>Hank Quinlan, Horrible Cop</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
   <body>
-    <h1>Welcome to the <b>PET HOUSE</b>!</h1>
-    <h2>Here you will see different kinds of pets. enjoy :) </h2>
-    <!-- CAT SECTION -->
-    <h3>Here is a cat...</h3>
-    <br>
-    <img id="cat" src="https://news.nationalgeographic.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324.jpg" alt="Cat image">
-    <br>
-    <button onclick="cat()">Click me for information</button>
-    <p id="catinfo"></p>
-    <br>
-    <!-- DOG SECTION -->
-    <h3>Here is a dog...</h3>
-    <br>
-    <img id="dog" src="https://i.kinja-img.com/gawker-media/image/upload/s--HqfzgkTd--/c_scale,f_auto,fl_progressive,q_80,w_800/wp2qinp6fu0d8guhex9v.jpg" alt="Dog image">
-    <br>
-    <button onclick="dog()">Click me for information</button>
-    <p id="doginfo" ></p>
-    <br>
-    <!-- PARROT SECTION -->
-    <h3>This is no parrot olololo...</h3>
-    <br>
-    <img id="parrot" src="https://images.unsplash.com/photo-1534567059665-cbcfe2e73b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="parrot image">
-    <br>
-    <button onclick="parrot()">Click me for information</button>
-    <p id="parrotinfo"></p>
-    <br>
-    <!-- ENDING SECTION -->
-    <p>Thank you for visiting my website!!!</p>
-    <p> <a href="https://www.zoonewengland.org/franklin-park-zoo.aspx"><i>Check out the zoo!</i></a> </p>
-    <!-- JAVASCRIPT SECTION -->
-    <script>
-    function cat() {
-      document.getElementById("catinfo").innerHTML = "The cat (Felis catus) is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat, kept as a pet, or a feral cat, freely ranging and avoiding human contact. A house cat is valued by humans for companionship and for its ability to hunt rodents. About 60 cat breeds are recognized by various cat registries.";
-      }
-    function dog() {
-      document.getElementById("doginfo").innerHTML = "he domestic dog (Canis lupus familiaris when considered a subspecies of the wolf or Canis familiaris when considered a distinct species) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore. The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct. The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes.";
-      }
-    function parrot() {
-      document.getElementById("parrotinfo").innerHTML = "Parrots, also known as psittacines, are birds of the roughly 393 species in 92 genera that make up the order Psittaciformes, found in most tropical and subtropical regions. The order is subdivided into three superfamilies: the Psittacoidea , the Cacatuoidea (cockatoos), and the Strigopoidea (New Zealand parrots). Parrots have a generally pantropical distribution with several species inhabiting temperate regions in the Southern Hemisphere, as well. The greatest diversity of parrots is in South America and Australasia.";
-      }
-    </script>
-    <p id="cpr">&#9400; copyright... Danae Savvidi</p>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="blurb">
+            <h1>Hi there, I'm Hank Quinlan!</h1>
+        <p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+        </div><!-- /.blurb -->
+    </div><!-- /.container -->
+    <footer>
+        <ul>
+            <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+            <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
