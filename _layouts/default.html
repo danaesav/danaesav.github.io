@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/styles.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/aboutme">About Me</a></li>
-		        	<li><a href="/projects">Projects</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:danaesavvidi@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/danaesav">github</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+<body>
+	{%- include topheader.html -%}
+<!-- 	<nav>
+	    	<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/aboutme">About Me</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/cv">CV</a></li>
+	    	</ul>
+	</nav>
+	 -->
+	<main class="page-content" aria-label="Content">
+    		<div class="wrapper">
+      			{{ content }}
+    		</div>
+  	</main>
+		{%- include footer.html -%}
+<!-- 	    	<ul>
+	        	<li><a href="mailto:danaesavvidi@gmail.com">email</a></li>
+	        	<li><a href="https://github.com/danaesav">github</a></li>
+		</ul> -->
+</body>
+</html>
