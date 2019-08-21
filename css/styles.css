@@ -37,7 +37,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1em;
+    font-size: 3em;
     font-family: 'Verdana';
 }
 
@@ -51,7 +51,7 @@ ul.posts li {
 
 .lists {
     font-family: 'Verdana';
-    font-size: 1em;
+    font-size: 3em;
     text-align: justify;
     padding-left: 350px;
     padding-right: 350px;
@@ -59,7 +59,7 @@ ul.posts li {
 
 p {
     font-family: 'Verdana';
-    font-size: 1em;
+    font-size: 3em;
     text-align: justify;
     padding-left: 300px;
     padding-right: 300px;
