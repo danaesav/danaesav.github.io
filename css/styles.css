@@ -9,7 +9,7 @@ body {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     font-family: 'Verdana';
     margin-right: 20px;
 } 
