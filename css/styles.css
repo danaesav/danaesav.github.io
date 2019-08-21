@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
 /*  nav ul, footer ul {
     font-family: 'Verdana';
     padding: 0px;
