@@ -50,8 +50,8 @@ ul.posts li {
     font-family: 'Verdana';
     font-size: 20px;
     text-align: justify;
-    margin-left: 3em;
-    margin-right; 3em;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 p {
