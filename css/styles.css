@@ -4,7 +4,7 @@ body {
 
 nav ul, footer ul {
     font-family: 'Verdana';
-    padding: 0px;
+    padding: 50px;
     list-style-type: none;
     font-weight: bold;
 } 
