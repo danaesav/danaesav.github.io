@@ -60,3 +60,8 @@ p {
 .main-header{
     background-color: 'gray';
 }
+
+.aboutme{
+    margin-left: auto;
+    margin-right: auto;
+}
