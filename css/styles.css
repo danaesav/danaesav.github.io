@@ -37,13 +37,14 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Verdana';
 }
 
 ul.posts li {
     list-style: none;
     font-family: 'Verdana';
+    margin: 20px auto 40px; 
 }
 
 .lists {
