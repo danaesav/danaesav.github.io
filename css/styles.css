@@ -50,6 +50,10 @@ ul.posts li {
 p {
     font-family: 'Verdana';
     font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
 /*   line-height: 1.4em; */
 }
 
