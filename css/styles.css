@@ -23,6 +23,7 @@ a:hover {
 h2 {
     font-family: 'Verdana';
     font-weight: normal;
+    padding-left: 50px;
 }
 
 footer {
@@ -61,12 +62,12 @@ ul.posts li {
 p {
     font-family: 'Verdana';
     font-size: 15px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .aboutme {
-    padding-left: 200px;
+    padding-left: 150px;
     font-family: 'Verdana';
-    padding-right: 200px;
+    padding-right: 150px;
 }
