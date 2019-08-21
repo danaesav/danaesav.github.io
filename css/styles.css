@@ -5,15 +5,15 @@ body {
 nav ul, footer ul {
     font-family: 'Verdana';
     list-style-type: none;
+    margin-right: 50px;    
     font-weight: bold;
     display: inline-block;
-    text-align: center;
 } 
 nav ul li, footer ul li {
+    margin-right: 50px;    
     display: inline-block;
     font-family: 'Verdana';
     list-style-type: none;
-    text-align: center;
 }
 a {
     text-decoration: none;
