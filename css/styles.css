@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
- nav ul, footer ul {
+/*  nav ul, footer ul {
     font-family: 'Verdana';
     padding: 0px;
     list-style-type: none;
@@ -12,7 +12,7 @@ nav ul li, footer ul li {
     display: inline-block;
     font-family: 'Verdana';
     margin-right: 20px;
-} 
+}  */
 a {
     text-decoration: none;
     font-family: 'Verdana';
