@@ -52,16 +52,9 @@ p {
     font-size: 15px;
     padding-left: 200px;
     padding-right: 200px;
-
-
-/*   line-height: 1.4em; */
 }
 
-.main-header{
-    background-color: 'gray';
-}
-
-.aboutme{
+.aboutme {
     margin-left: 200px;
     margin-right: 200px;
 }
