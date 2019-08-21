@@ -44,7 +44,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
     font-family: 'Verdana';
-    margin: 20px auto 40px; 
+    font-size: 1em;
+    margin-left: 50%; 
 }
 
 .lists {
