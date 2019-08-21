@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-#nav ul {
+nav ul {
     display: inline-block;
     list-style-type: none;
 }
