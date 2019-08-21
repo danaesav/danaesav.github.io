@@ -46,13 +46,14 @@ ul.posts li {
 .lists{
     font-family: 'Verdana';
     font-size: 20px;
-    margin-right: 200px;
+    padding-right: 350px;
+    padding-left: 350px;
 }
 .center {
     display: block;
     font-family: 'Verdana';
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .left {
@@ -62,8 +63,8 @@ ul.posts li {
 p {
     font-family: 'Verdana';
     font-size: 20px;
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 
 /* .aboutme {
