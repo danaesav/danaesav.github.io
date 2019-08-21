@@ -43,9 +43,9 @@ ul.posts li {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left {
@@ -53,12 +53,13 @@ ul.posts li {
 }
 
 p {
-  font-family: 'Verdana';
+    font-family: 'Verdana';
   font-size: 10px;
   line-height: 1.4em;
 }
 .main-header{
-  background-color: silver;
-  padding-top: 3vh;
-  background-image: url('https://cdn.onebauer.media/one/empire-images/features/5841f414fd71167f1ea1c0b8/invasion-crossover9.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg');
+    padding-top: 3vh;
+    width: 720px;
+    height: 404px;
+    background-image: url('https://cdn.onebauer.media/one/empire-images/features/5841f414fd71167f1ea1c0b8/invasion-crossover9.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg');
 }
