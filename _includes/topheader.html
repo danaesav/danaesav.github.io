@@ -1,24 +1,16 @@
 
 <header class="site-header">
-
   <div class="wrapper">
     <img style="width:720px;height:404.8px;" alt="Check out Supergirl and The Flaaashhhh" onclick="toggleDarkMode()" src="https://cdn.onebauer.media/one/empire-images/features/5841f414fd71167f1ea1c0b8/invasion-crossover9.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg"/>
-    {%- if titles_size > 0 -%}
-      <nav class="site-nav">
-        <input class="nav-trigger" id="nav-trigger" type="checkbox"/>
-        <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign page = site.pages | where: "path", path | first -%}
-            {%- if page.layout == "home" -%}
-              <a class="page-link" href="{{ page.url | relative_url }}">Home</a>
-            {%- elsif page.title -%}
-              <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-          <a class="page-link" href="/cv/CV_danae.docx">Resume</a>
-        </div>
+    <div class="trigger">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutme">About Me</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a class="page-link" href="/cv/CV_danae.docx">Resume</a></li>
+        </ul>
       </nav>
-    {%- endif -%}
+    </div>
   </div>
-
 </header>
