@@ -1,11 +1,8 @@
 body {
     margin: 0px;
-    padding-left: 350px;
+    text-align: center;
 }
 
-main {
-    padding-right: 350px;
-}
 nav ul, footer ul {
     font-family: 'Verdana';
     padding: 0px;
