@@ -1,9 +1,9 @@
 body {
     margin: 0px;
-    text-align: middle;
+/*     text-align: justify; */
 }
 
-nav ul, footer ul {
+/* nav ul, footer ul {
     font-family: 'Verdana';
     padding: 0px;
     list-style: none;
@@ -13,7 +13,7 @@ nav ul li, footer ul li {
     display: inline;
     font-family: 'Verdana';
     margin-right: 20px;
-}
+} */
 a {
     text-decoration: none;
     font-family: 'Verdana';
@@ -26,6 +26,7 @@ h2 {
     font-family: 'Verdana';
     font-weight: normal;
     text-align: left;
+    margin-left: 50px;
 }
 
 footer {
@@ -48,32 +49,20 @@ ul.posts li {
 .lists {
     font-family: 'Verdana';
     font-size: 20px;
-    text-align: middle;
-    padding-left: 50px;
+    text-align: justify;
+    padding-left: 100px;
 }
-/* .center {
-    display: block;
-    font-family: 'Verdana';
-    margin-left: 350px;
-    margin-right: 350px;
-} */
-/* 
-.left {
-    align: left;
-} */
 
 p {
     font-family: 'Verdana';
     font-size: 20px;
-    text-align: middle;
+    text-align: justify;
 /*     padding-left: 350px;
     padding-right: 350px; */
 }
 
 .aboutme {
-    text-align: middle;
+    text-align: justify;
     font-family: 'Verdana';
-/*     padding-right: 350px;
-    padding-left: 350px; */
 
 }
