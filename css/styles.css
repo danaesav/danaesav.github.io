@@ -9,10 +9,12 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
+    font-family: 'Verdana';
     margin-right: 20px;
 }
 a {
     text-decoration: none;
+    font-family: 'Verdana';
     color: #999;
 }
 a:hover {
@@ -26,19 +28,23 @@ h2 {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    font-family: 'Verdana';
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family: 'Verdana';
 }
 
 ul.posts li {
     list-style: none;
+    font-family: 'Verdana';
 }
 
 .center {
     display: block;
+    font-family: 'Verdana';
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -56,5 +62,6 @@ p {
 
 .aboutme {
     margin-left: 200px;
+    font-family: 'Verdana';
     margin-right: 200px;
 }
