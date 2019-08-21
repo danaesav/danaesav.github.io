@@ -58,5 +58,7 @@ p {
   line-height: 1.4em;
 }
 .main-header{
-	background-image: url('https://cdn.onebauer.media/one/empire-images/features/5841f414fd71167f1ea1c0b8/invasion-crossover9.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg');
+  background-color: silver;
+  padding-top: 3vh;
+  background-image: url('https://cdn.onebauer.media/one/empire-images/features/5841f414fd71167f1ea1c0b8/invasion-crossover9.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg');
 }
