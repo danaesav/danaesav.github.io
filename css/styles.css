@@ -7,12 +7,15 @@ nav ul, footer ul {
     margin-left: 50px;
     list-style-type: none;
     font-weight: bold;
+    display: inline-block;
+    text-align: center;
 } 
 nav ul li, footer ul li {
     display: inline-block;
     font-family: 'Verdana';
     list-style-type: none;
     margin-left: 20px;
+    text-align: center;
 }
 a {
     text-decoration: none;
