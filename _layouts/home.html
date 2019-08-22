@@ -1,7 +1,23 @@
 ---
 layout: default
 ---
-
-<div class="home" style="text-align: justify;">
-  <p><b>Hello!</b> Welcome to my website! My name is Danae</p>
-</div>
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts limit: 5 -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+  <p><i style="font-size:24px" class="fa">&#xf143;</i><a href="{{ "/atom.xml" | relative_url }}">Subscribe</a></p>
+{%- endif -%}
