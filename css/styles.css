@@ -58,7 +58,7 @@ ul.posts li {
     padding-right: 350px;
 }
 
-p {
+.text {
     font-family: 'Verdana';
     font-size: 16px;
     text-align: justify;
