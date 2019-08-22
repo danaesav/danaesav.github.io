@@ -6,6 +6,15 @@
   <link rel="stylesheet" href="{{ "/css/footer_styles.css" | relative_url }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @media (min-width: 768px) {
+      .abs-center-x {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
