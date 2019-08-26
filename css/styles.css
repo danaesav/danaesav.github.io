@@ -30,11 +30,6 @@ h2 {
     margin-left: 300px;
 }
 
-/* footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    font-family: 'Verdana';
-} */
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -50,7 +45,7 @@ ul.posts li {
     padding-right: 300px;
 }
 
-#postlist {
+#postlist li {
     list-style: none;
     font-family: 'Verdana';
     font-size: 16px; 
