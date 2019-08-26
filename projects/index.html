@@ -32,7 +32,7 @@ title: My Projects!
 {% endfor %} -->
 
 {% for tag in tags %}
-	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+	<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
 	<ul id="postlist">
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
