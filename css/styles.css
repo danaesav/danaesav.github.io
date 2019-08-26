@@ -50,6 +50,14 @@ ul.posts li {
     padding-right: 300px;
 }
 
+#postlist {
+    list-style: none;
+    font-family: 'Verdana';
+    font-size: 16px; 
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 .lists {
     font-family: 'Verdana';
     font-size: 16px;
