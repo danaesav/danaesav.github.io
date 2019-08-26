@@ -36,7 +36,7 @@ title: My Projects!
 	<ul id="postlist">
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
-		 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		 <li id="postlist"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		 </li>
 		 {% endif %}
 	 {% endfor %}
