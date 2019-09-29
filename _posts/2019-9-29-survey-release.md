@@ -1,11 +1,7 @@
------
-layout: post
-title: Environmental Survey Release
-tags: General
------
-
-Hello! 
-
-Here is the link to the survey: https://forms.gle/JxJ42A2niNdGHYNZ6
-
-Thanks for your time :)
+---
+layout: redirect
+sitemap: false
+permalink: redirect.html
+redirect_to:  https://forms.gle/JxJ42A2niNdGHYNZ6
+tags: Presentations
+---
